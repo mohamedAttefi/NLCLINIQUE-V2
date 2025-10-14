@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'heebo';  /* Name you want to use */
+  font-family: 'heebo';
   src: url('/static/Heebo-Medium.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
@@ -10,7 +10,7 @@
     padding: 0;
 }
 .nav-bar{
-    background: url(/images/Generated\ Image\ October\ 13\,\ 2025\ -\ 9_08PM.png);
+    background: url(/images/Generated\ Image\ October\ 13\,\ 2025\ -\ 9_05PM.png);
     display: flex;
     justify-content: space-around;
     height: 100px;
@@ -32,6 +32,7 @@
     justify-content: space-evenly;
 }
 input{
+    color: white;
     background-color: rgba(255, 255, 255, 0);
     border: 1px rgb(255, 255, 255) solid;
     padding: 10px;
@@ -40,6 +41,19 @@ input{
 input::placeholder{
     color: rgb(255, 255, 255);
 }
-input:focus{
+#input1:focus{
     border: none;
+}
+
+#search{
+    position: relative;
+    width: 15px; 
+    height: 15px;
+    z-index: 100;
+    top: 10px;
+    left: -85%;
+    color: white;
+}
+.search-form{
+    display: flex;
 }
