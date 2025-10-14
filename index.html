@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>home</title>
+    <title>About us</title>
     <link rel="shortcut icon" href="/images/favicon.png">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <nav class="nav-bar">
         <div>
-            <img src="/images/logo.png" alt="logo" id="logo">
+            <img src="/images/logo.png" alt="logo" class="logo">
         </div>
-        
+
         <div class="links">
             <a href="">home</a>
             <a href="">doctors</a>
@@ -20,10 +22,62 @@
             <a href="">about us</a>
         </div>
         <div class="search-form">
-            <input id="input1" type="search" placeholder="search">
+            <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <circle cx="11" cy="11" r="8" />
+                <line x1="21" y1="21" x2="16.65" y2="16.65" />
+            </svg>
+            <input class="search-input" type="text" placeholder="Search">
         </div>
     </nav>
 
+    <main>
+        <div class="hero">
+            <div id="title">
+                <h3>About us</h3>
+            </div>
+            <div class="main-content">
+                <div class="left-side">
+                    <div class="left-side-content">
+                        <div class="description">
+                            <h3>We Are Always Ensure Best Medical Treatment</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam hendrerit metus ex, id
+                                ullamcorper massa accumsan volutpat. Etiam viverra pharetra dui, nec aliquet nisi
+                                consequat sit amet. </p>
+                        </div>
+                        <div class="left-side-item">
+                            <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam hendrerit metus ex, id
+                                ullamcorper massa accumsan volutpat. Etiam viverra pharetra dui, nec aliquet nisi
+                                consequat sit amet.”</p>
+                            <h3>Vice Director of Wellness Hospital</h3>
+                        </div>
+                        <div class="button">
+                            <button class="custom-button">
+                                More About Us
+                                <span class="arrow">→</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-side">
+                    <div class="doctor">
+                        <img src="/images/doctors.png" alt="">
+                    </div>
+                    <div class="right-side-item">
+                        <div class="patient">
+                            <a href="https://www.youtube.com/watch?v=W5Dm2WCk8jg" target="_blank"><img
+                                    src="/images/patients.png" alt="experience video"></a>
+
+                        </div>
+                        <div class="exp">
+                            <h3>20 ANS
+                                D’EXPERIENCE</h3>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </main>
 
 
 
@@ -31,8 +85,67 @@
 
     <footer>
         <div class="footer-container">
-            
+            <div class="right-panel">
+                <div class="right-panel-content">
+                    <div class="right-panel-item">
+                        <h3>Quick Links</h3>
+                        <ul>
+                            <li>home</li>
+                            <li>about</li>
+                            <li>portfolio</li>
+                            <li>blog</li>
+                        </ul>
+                    </div>
+
+                    <div class="right-panel-item">
+                        <h3>Work Categorie</h3>
+                        <ul>
+                            <li>architecture</li>
+                            <li>nature</li>
+                            <li>modeling</li>
+                            <li>event</li>
+                            <li>branding</li>
+                        </ul>
+                    </div>
+                    <div class="right-panel-item">
+                        <h3>Legal</h3>
+                        <ul>
+                            <li>return policy</li>
+                            <li>shipping policy</li>
+                            <li>privacy policy</li>
+                            <li>terms of service</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="right-panel-item">
+                    <h3>location</h3>
+                    <p>Jl. Danau Jonge 12, Mayjend Sungkono, Surabaya</p>
+
+                </div>
+
+            </div>
+            <div class="left-panel">
+                <div class="left-panel-item">
+                    <div>
+                        <img src="/images/logo.png" alt="logo" class="footer-logo">
+                    </div>
+                    <div class="submit">
+                        <input type="email" name="email" placeholder="your email" id="email">
+                        <button type="submit" id="submit">subscribe</button>
+                    </div>
+                    <span id="description">Nullam ultrices lorem et augue placerat blandit. Nam nisl lacus, imperdiet
+                        quis
+                        dui pretium, pretium vehicula turpis. Fusce scelerisque fermentum lacinia.</span>
+                </div>
+                <div class="resaux">
+                    <img src="/images/whatssap.png" alt="">
+                    <img src="/images/facebook.png" alt="">
+                    <img src="/images/insta.png" alt="">
+                </div>
+            </div>
+
         </div>
     </footer>
 </body>
+
 </html>
