@@ -1,0 +1,214 @@
+@font-face {
+    font-family: 'heebo';
+    src: url('/fonts/HEEDO/Heebo-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'IBM';
+    src: url(/fonts/IBM/IBMPlexSans-Bold.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: heebo;
+}
+
+body {
+    width: 100%;
+}
+
+
+.nav-bar {
+    background: url(/images/Generated\ Image\ October\ 13\,\ 2025\ -\ 9_05PM.png);
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    align-items: center;
+    font-family: heebo;
+    font-size: 18px;
+    font-weight: 10px;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    z-index: 100;
+}
+
+.logo {
+    width: 50px;
+}
+
+.links a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.links {
+    width: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 20px;
+}
+
+
+.search-form {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff00;
+    border: 1.5px solid white;
+    border-radius: 12px;
+    padding: 8px 12px;
+    color: white;
+}
+
+.search-form svg {
+    width: 18px;
+    height: 18px;
+    stroke: white;
+    margin-right: 10px;
+}
+
+.search-input {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 16px;
+    font-family: 'heedo';
+}
+
+.search-input::placeholder {
+    color: #cfd8dc;
+    font-family: 'heebo';
+}
+
+.hero {
+    margin-top: 80px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15vh;
+}
+
+#title {
+    color: white;
+    font-size: 30px;
+    font-family: 'IBM';
+    margin-top: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    text-align: center;
+    padding: 1% 0;
+    background: linear-gradient(90deg, #000DFF 0%, #00AEFF 100%);
+}
+
+.footer-logo {
+    width: 150px;
+    margin-top: 30px;
+}
+
+footer {
+    background-color: #002741;
+}
+
+.right-panel-content {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.submit {
+    margin-top: 100px;
+    display: flex;
+    gap: 10px;
+}
+
+#email {
+    width: 240px;
+    border-radius: 50px;
+    border: 1px #3498DB solid;
+    padding-left: 10px;
+}
+
+#submit {
+    width: 100px;
+    height: 40px;
+    border-radius: 50px;
+    border: 1px #3498DB solid;
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+}
+
+.footer-container {
+    margin: 0 30px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: start;
+    padding: top 20px;
+    height: 100vh;
+}
+
+#description {
+    color: white;
+    width: 400px;
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 16px;
+}
+
+.left-panel {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.resaux img {
+    width: 32px;
+}
+
+.resaux {
+    width: 100px;
+    position: relative;
+    bottom: -100%;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.right-panel {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 50%;
+    height: 50%;
+    gap: 40px;
+}
+
+.right-panel-item h3 {
+    font-family: 'heebo';
+    font-size: 24px;
+    color: #008AFF;
+}
+
+.right-panel-item ul li {
+    list-style: none;
+    font-size: 14px;
+    color: white;
+    line-height: 35px;
+}
+
+.right-panel-item p {
+    font-size: 14px;
+    color: #969696;
+}
