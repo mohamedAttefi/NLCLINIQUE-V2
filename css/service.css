@@ -155,6 +155,7 @@ footer {
     align-items: start;
     padding: top 20px;
     height: 100vh;
+    z-index: 1;
 }
 
 #description {
@@ -211,4 +212,112 @@ footer {
 .right-panel-item p {
     font-size: 14px;
     color: #969696;
+}
+
+.services-container {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 40px;
+    
+    justify-content: center;
+
+
+}
+
+.services-item {
+    width: 350px;
+    background: linear-gradient(180deg, #BBEFFF 0%, #00C3FF 100%);
+    border-radius: 30px;
+    margin-bottom: 50px;
+}
+
+.content {
+    padding: 30px 30px;
+}
+.icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main-content span{
+    font-family: 'IBM';
+    color: #004A7B;
+    font-size: 35px;
+}
+.icon h2{
+    font-size: 52px;
+    font-family: 'IBM';
+    color: white;
+}
+
+
+.custom-button {
+    border: 1px #0026FF solid;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    color: #0026FF;
+    padding: 10px 15px;
+    border-radius: 40px;
+    font-size: 18px;
+    font-family: 'heebo';
+    cursor: pointer;
+    position: relative;
+}
+
+.custom-button .arrow {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: #0026FF;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    margin-left: 15px;
+    font-size: 16px;
+    
+}
+
+.button {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0000FF;
+    color: white;
+    padding: 10px 0;
+    border: none;
+    border-radius: 40px;
+    font-size: 18px;
+    font-family: 'heebo';
+    cursor: pointer;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.button .fleche {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: #0000FF;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    margin-left: 15px;
+    font-size: 16px;
+}
+.content h3{
+    color: #004885;
+    font-size: 30px;
 }

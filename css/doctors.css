@@ -340,9 +340,7 @@ footer {
     transition: background-color 0.3s;
 }
 
-.custom-button:hover .arrow {
-    background-color: #e0e0e0;
-}
+
 
 article {
     background: url(/images/Generated\ Image\ October\ 13\,\ 2025\ -\ 9_05PM.png);
