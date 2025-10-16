@@ -313,46 +313,224 @@ footer {
     height: fit-content;
     height: 650px;
 }
-.Check-Doctor-Availability{
+
+.Check-Doctor-Availability {
     transform: translateY(-85%);
     width: 81%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-        padding: 10px 10px;
-        gap: 20px;
-        background-color: white;
-        border-top-left-radius: 20px;
-        border-top-right-radius: 20px;
-        padding-bottom: 100px;
-        
+    padding: 10px 10px;
+    gap: 20px;
+    background-color: white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding-bottom: 100px;
+
 
 
 }
-.item{
+
+.item {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 40%;
-        border: 1px black solid;
-        padding: 10px 10px;
+    border: 1px black solid;
+    padding: 10px 10px;
     border-radius: 20px;
     background-color: white;
 }
-#Doctor-Type{
+
+#Doctor-Type {
     border: none;
 }
-.label{
+
+.label {
     display: flex;
     align-items: center;
 }
-.loogs-container{
+
+.loogs-container {
     display: flex;
     justify-content: center;
 }
-.logos{
-    border: black solid 1px; 
+
+.logos {
+    border: black solid 1px;
     width: 1200px;
     display: flex;
     justify-content: space-between;
 }
+
+.about #title {
+    font-family: 'IBM';
+    font-size: 16px;
+    margin-top: 8vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    text-align: center;
+    width: 150px;
+    border: 1px black solid;
+    color: white;
+    font-weight: 100;
+}
+
+.hero .about-container {
+    background-color: #F4F8FB;
+    width: 90%;
+
+}
+
+.about-container {
+    display: flex;
+    justify-content: end;
+    border: 1px black solid;
+
+}
+.about-container {
+    width: 95%;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 150px;
+}
+
+.patient {
+    width: 220px;
+    height: 250px;
+    border-radius: 3vh;
+    overflow: hidden;
+}
+
+.patient img {
+    width: 100%;
+    height: 100%;
+}
+
+.doctor {
+    height: 250px;
+    width: 400px;
+    border-radius: 3vh;
+    overflow: hidden;
+}
+
+.doctor img {
+    width: 100%;
+    height: 100%;
+}
+
+.description {
+    padding: 30px 20px;
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.description h3 {
+    font-family: 'IBM';
+    font-size: 30px;
+    color: #3498DB;
+}
+
+.description p {
+    font-family: 'heebo';
+    font-size: 15px;
+    color: #313131;
+}
+
+.right-side {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    border: 1px black;
+}
+
+.left-side-content {
+
+    display: flex;
+    flex-direction: column;
+    gap: 40px
+}
+
+.left-side-item p,
+.left-side-item h3 {
+    font-size: 11px;
+    font-family: 'IBM';
+}
+
+.left-side-item p {
+    color: #313131;
+}
+
+.left-side-item h3 {
+    color: #3498DB;
+}
+
+.left-side-item {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border: 1px #E1E1E1 solid;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 30px 20px;
+    
+}
+.about{
+    width: 95%;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 150px;
+}
+.exp {
+    width: 50%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    color: #0088FF;
+    font-family: "IBM";
+}
+.button{
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+}
+
+.custom-button {
+    width: 30%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #0000FF;
+      color: white;
+      padding: 8px 0;
+      border: none;
+      border-radius: 40px;
+      font-size: 18px;
+      font-family: 'heebo';
+      cursor: pointer;
+      position: relative;
+    }
+
+    .custom-button .arrow {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      background-color: white;
+      color: #0000FF;
+      border-radius: 50%;
+      width: 30px;
+      height: 30px;
+      margin-left: 15px;
+      font-size: 16px;
+      transition: background-color 0.3s;
+    }
+
+    .custom-button:hover .arrow {
+      background-color: #e0e0e0;
+    }
