@@ -425,7 +425,6 @@ article {
 }
 .plane{
     display: flex;
-    
     gap: 30px;
 }
 .pricing h2{
