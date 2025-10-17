@@ -470,9 +470,8 @@ article {
     gap: 20px;
 }
 .features div{
-    
+
     overflow: hidden;
-    text-align: center;
     width: 15px;
     height: 15px;
     border-radius: 50px;
@@ -480,7 +479,7 @@ article {
 }
 .features div p{
     position: relative;
-    top: -3px;
+    top: -3.5px;
     left: -3px;
 }
 .plan-item p{
